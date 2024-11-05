@@ -1,0 +1,87 @@
+body {  
+    font-family: Arial, sans-serif;  
+    margin: 0;  
+    padding: 0;  
+    background-color: #e9f5e9; /* Verde claro */  
+    color: #333;  
+}  
+.logo {
+    height: 150px;
+}
+header {  
+    background: #4caf50; /* Verde médio */  
+    color: white;  
+    text-align: center;  
+    padding: 20px 0;  
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}  
+nav {  
+    margin-top: 10px;  
+}  
+
+nav ul {  
+    list-style-type: none;  
+    padding: 0;  
+    display: flex;  
+    justify-content: center; /* Centralizar a nav */  
+    font-size: large;
+}  
+
+nav ul li {  
+    margin: 0 15px;  
+}  
+
+nav ul li a {  
+    color: white;  
+    text-decoration: none;  
+    font-weight: bold;  
+}  
+
+nav ul li a:hover {  
+    text-decoration: underline; /* Efeito hover */  
+}  
+main {  
+    display: flex;  
+    flex-direction: column;  
+    align-items: center;  
+    padding: 20px;  
+}  
+
+.intro, .benefits, .gallery {  
+    background: white;  
+    margin: 10px;  
+    padding: 20px;  
+    border-radius: 8px;  
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);  
+    width: 80%;  
+}  
+
+ul {  
+   
+    padding: 10;  
+}  
+
+.image-container {  
+    display: flex;  
+    justify-content: space-around;  
+    flex-wrap: wrap;  
+}  
+
+.image-container img {  
+    border: 2px solid #4caf50;  
+    border-radius: 5px;  
+    margin: 10px;  
+}  
+
+footer {  
+    text-align: center;  
+    padding: 10px 0;  
+    background: #4caf50;  
+    color: white;  
+    position: relative;  
+    bottom: 0;  
+    width: 100%;  
+}  
+
